@@ -1,13 +1,5 @@
 /* html semantico e comentarios de codigo */
 
-body 
-{
-  font-family: 'Noto Sans', sans-serif;
-  background-image: url("https://c4.wallpaperflare.com/wallpaper/956/712/906/akira-awaken-akira-anime-cyberpunk-wallpaper-preview.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .row
 {
   margin: 0;
@@ -28,10 +20,19 @@ p,li
 
 /* barra nav */
 
+body h1
+{
+  font-family: 'Pixelify Sans', sans-serif;
+}
+
+body h1 span
+{
+  font-family: 'Roboto', sans-serif;
+}
 
 header, .navbar
 {
-  background-color: #B06161;
+  background-color: #775fff;
 }
 
 #nav-container
@@ -39,7 +40,6 @@ header, .navbar
   padding-top: 0;
   padding-bottom: 0;
 }
-
 
 #logo
 {
@@ -74,5 +74,7 @@ header, .navbar
 .navbar-nav
 {
   gap: 20px;
+  text-align:center;
+  font-family: 'Pixelify Sans';
 }
 
